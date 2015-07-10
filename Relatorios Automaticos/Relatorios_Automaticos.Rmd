@@ -2,6 +2,11 @@
 Fundamentação Teórica
 ---------------------
 
+Measuring Project Health [4]
+
+PMO Reporting (a importância) [5]
+
+Relatórios ao longo do projeto [6]
 
 a separação entre conteúdo e forma (base do LaTeX).
 
@@ -9,8 +14,13 @@ a dificuldade em se gerar um belo relatório
 
 a questão da apresentação da informação (gráficos versus tabelas, mapas)
 
-PMBOK Cap 10 - Project Communications Management
+PMBOK Cap 10 - Project Communications Management [9]
 
+Existem dezenas de softwares para gerenciamento de projetos [1] [2] 
+
+project financial planning and reporting (Excel!) [3]
+
+"Reproducible research": código versus planilhas
 
 
 
@@ -34,5 +44,23 @@ Conclusão
 Referências
 ---------------------
 
+[1] http://blog.timedoctor.com/2011/02/02/43-project-management-software-alternatives
+
+[2] http://www.1stwebdesigner.com/project-management-collaboration-tools/
+
+[3] http://www.businessballs.com/project.htm
+
+[4] http://www.projectperfect.com.au/info_project_health.php
+
+[5] http://www.pmhut.com/pmo-reporting
+
+[6] http://www.pmhut.com/budgeting-and-costing-in-project-management-reviewing-and-reporting
+
+[7] Livro: MBA Compacto, gestão de projetos; Verzuh, Eric; Editora Campus, 2000
+
+[8] Project Management, a systems approach to planning, scheduling and controlling; Kerzner, Harold; 
+Editora Van Nostrand Reinhold, Sixth Edition, 1998.
+
+[9] PMBOK 2000 Edition version 1.3
 
 
