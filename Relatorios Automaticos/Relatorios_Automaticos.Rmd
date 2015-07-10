@@ -8,7 +8,7 @@ PMO Reporting (a importância) [5]
 
 Relatórios ao longo do projeto [6]
 
-a separação entre conteúdo e forma (base do LaTeX).
+a separação entre conteúdo e forma (base do LaTeX). [10]
 
 a dificuldade em se gerar um belo relatório
 
@@ -20,7 +20,8 @@ Existem dezenas de softwares para gerenciamento de projetos [1] [2]
 
 project financial planning and reporting (Excel!) [3]
 
-"Reproducible research": código versus planilhas
+"Reproducible research": código versus planilhas [11] [12] [13] [14] [15] 
+
 
 
 
@@ -63,4 +64,16 @@ Editora Van Nostrand Reinhold, Sixth Edition, 1998.
 
 [9] PMBOK 2000 Edition version 1.3
 
+[10] http://www.latex-project.org
 
+[11] http://web.stanford.edu/~vcs/talks/ICIAMJuly202011-STODDEN.pdf
+
+[12] https://en.wikipedia.org/wiki/Reproducibility
+
+[13] http://reproducibleresearch.net/reproducible-material/
+
+[14] http://reproducibleresearch.net/bibliography/
+
+[15] http://www.computer.org/csdl/mags/cs/2009/01/mcs2009010005.pdf
+
+[16] 
