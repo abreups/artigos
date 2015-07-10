@@ -1,0 +1,405 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[12pt]{article} % use larger type; default would be 10pt
+
+% Para a separação de sílabas em Português
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage[brazil]{babel}
+\usepackage{ae} % para o pdf ficar com fontes melhores
+%\usepackage[numbers]{natlib} não funciona
+
+
+\usepackage[T1]{fontenc}
+
+%\usepackage{endnotes}
+%\let\footnote=\endnote
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\geometry{margin=2.5cm} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+% será que rmfamily = Times New Roman?? (Roman family)
+\allsectionsfont{\rmfamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+\renewcommand{\abstract}{}
+%\renewcommand{\thebibliography}{\fontsize{20}{20}} não funciona
+%%% END Article customizations
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% The "real" document content comes below...
+
+\title{\fontsize{15}{15}\textbf{Equipes remotas: ferramentas e práticas de gestão em um caso real}}
+\author{Paulo Santos Abreu}
+\date{17 de agosto de 2011} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\fontsize{12}{12}\textit{A gestão de equipes remotas apresenta desafios ao gestor que não existiam em grupos não dispersos 
+geograficamente. Ferramentas de tecnologia ajudam o gestor a lidar com os desafios de isolamento do grupo
+e diferença de fusos horários, enquanto ferramentas de gestão de desempenho ajudam com a entrega de 
+resultados. A experiência na gestão de uma equipe remota identificou quais ferramentas são as mais
+eficazes e de que maneira elas podem ser utilizadas. Nem todas as ferramentas tecnológicas analisadas
+mostraram-se práticas e o uso do conjunto apropriado depende de fatores da cultura da empresa.
+}
+ 
+Equipe; Virtual; Ferramenta
+
+\end{abstract}
+
+\section{\fontsize{12}{12}\textbf{Introdução}}
+
+Em um mundo cada vez mais globalizado é comum que as empresas empreguem pessoas
+que se encontram dispersas geograficamente entre cidades, estados e até mesmo países.
+A gestão desse tipo de grupo apresenta desafios específicos que não estavam 
+presentes na gestão de pessoas que trabalhavam todas no mesmo escritório.
+
+Este artigo apresenta a experiência adquirida na gestão de um grupo de 6 pessoas distribuído
+por 5 países na América Latina em 3 fusos horários diferentes com 3 línguas  
+distintas sendo uma delas (Inglês) utilizada como a língua comum entre o grupo.
+As ferramentas tecnológicas e de gestão de pessoas mais utilizadas 
+são apresentadas e a descrição de como aplicá-las ao grupo é discutida.
+
+No contexto deste artigo, equipe remota é um grupo de pessoas que trabalha em uma organização funcional (e.g. um Departamento da empresa) e que estão geograficamente dispersos. O termo equipe virtual 
+ também pode ser utilizado para descrever esse grupo,
+mas este artigo restringe a definição a funcionários sob a mesma organização hierárquica (organização funcional
+	e equipe virtual estão definidos em \cite{pmbok}).
+
+
+\section{\fontsize{12}{12}\textbf{Desafios de uma Equipe Remota}}
+
+A gestão de uma equipe remota exige um esforço adicional
+para manter a comunicação e a interação com os membros da equipe sempre fluindo. 
+Os principais desafios presentes na gestão de uma equipe remota são (\cite{brake} e \cite{sen}):
+
+\begin{description}
+\item{Isolamento:} membros de uma equipe remota não podem
+	simplesmente ``aparecer na sala do gestor'' para tirar uma dúvida ou ter uma discussão rápida, nem mesmo
+	encontram o gestor ou os colegas no cafezinho para bater um papo. A distância física afasta as pessoas não só no sentido
+	espacial mas também no sentido de relacionamento pessoal. O contato entre as
+                                                pessoas fica mais restrito a temas do trabalho em horários específicos. Este distanciamento (físico e
+							emocional) reduz o senso de identidade da equipe (faz com que a sensação de pertencer a um mesmo
+							grupo diminua) e dificulta a construção de confiança. 
+
+\item{Diferenças de fuso horário:} quanto maior a diferença de fuso horário entre os membros da equipe
+                                                mais difícil ficam alguns itens logísticos, tais como marcar horário de reuniões. 
+                                                O horário conveniente para um pode ser muito cedo ou muito tarde para
+                                                outro. Além disso, o gestor pode precisar conversar com um membro da 
+                                                equipe num horário no qual ele já não esteja mais disponível, e vice versa.
+
+
+\item{Acompanhamento do trabalho:} a distância entre os membros da equipe e principalmente a distância do gestor dá a cada
+                                                   pessoa uma grande liberdade no trabalho, permitindo uma maior flexibilidade  
+		na escolha de horários e atividades realizadas. Esta liberdade tráz automaticamente
+                                            a responsabilidade pela entrega dos resultados nos prazos acordados
+					independentemente de se o chefe estava acompanhando ou não o andamento do trabalho.
+\end{description}
+
+
+Para lidar com os desafios da gestão de equipes remotas o gestor pode fazer uso de Ferramentas Tecnológicas
+e Ferramentas de Gestão de Desempenho. Em seguida descrevemos cada uma dessas categorias.
+
+\section{\fontsize{12}{12}\textbf{Ferramentas Tecnológicas}}
+
+Existe uma diversidade muito grande de ferramentas de tecnologia no mercado e há sempre um novo
+produto sendo lançado. Nenhuma ferramenta tecnológica vai resolver por si só as dificuldades
+da gestão de equipes remotas. No entanto, há ferramentas que podem ajudar em muito o gestor
+em seu objetivo de diminuir a dificuldade de comunicação e de distanciamento do grupo.
+
+As ferramentas mais comuns encontradas atualmente são as seguintes.
+
+\begin{description}
+
+\item{E-mail e lista de distribuição (\textit{mailing list}):} parte integrante da comunicação no mundo atual o e-mail é ferramenta indispensável e incontestável
+    na comunicação entre pessoas de quaisquer grupos corporativos. Para uma equipe remota a comunicação por e-mail
+    é fundamental. Na família de ferramentas de e-mail, a lista de distribuição (ou \textit{mailing list}) é um tipo de
+                                          conta de e-mail onde um sistema distribui automaticamente o e-mail recebido para todos
+                                          aqueles cadastrados na lista. 
+
+\item{Calendário compartilhado}: muitas vezes integrado à ferramenta de correio eletrônico, o calendário compartilhado
+	permite agendar um compromisso e convidar outras pessoas automaticamente bastando incluir o endereço de
+	e-mail das mesmas na lista de participantes do evento. A ferramenta envia um e-mail aos convidados que têm a opção
+	de aceitar ou declinar do convite. Se o convite for aceito, aparecerá no calendário da pessoa convidada 
+	o compromisso sincronizado com o compromisso no calendário do organizador. 
+
+
+\item{Áudio conferência:} o uso do telefone é tão onipresente quanto o uso de e-mail e faz parte, sem dúvida, das 
+    ferramentas usadas na gestão de equipes remotas. No entanto, quando um 
+    telefonema precisa incluir mais de duas pessoas simultaneamente, a dificuldade em se estabelecer esta comunicação
+    aumenta exponencialmente com a quantidade de participantes. A áudio
+    conferência é um sistema de telefonia que permite a várias pessoas participarem de um telefonema ao mesmo tempo. 
+
+
+\item{\textit{Chat} (ou mensagem instantânea / \textit{instant messaging}):} o \textit{instant messaging} (IM) é muito popular na Internet e 
+    é cada vez mais utilizado também no mundo corporativo. Para uma equipe remota, o IM vem em adição à 
+    comunicação por e-mail e ao uso do telefone. O uso mais comum do IM é para uma comunicação rápida onde não se procura fazer um 
+    acompanhamento posterior sobre o assunto (nesse outro caso, o e-mail passa a ser a ferramenta de preferência).  
+    
+
+\item{Apresentações via Internet:} esta ferramenta está disponível através de vários fornecedores e produtos no mercado. O uso mais
+    comum é compartilhar uma apresentação de \textit{slides} via Internet para que os demais participantes acompanhem
+    a apresentação de forma mais fácil (é como se todos estivessem numa mesma sala assistindo a uma apresentação
+    feita com um projetor). 
+
+\item{Acesso remoto a sistemas:} acesso remoto aos sistemas da empresa 
+    (tais como: intranet, servidores de arquivo, bases de dados, e-mail, chat, dentre outros) ocorre quando
+    a pessoa tem a capacidade de acessar um ou mais dos sistemas utilizando-se de uma VPN (rede de comunicação 
+	privada que se cria utilizando-se criptografia sobre uma rede de acesso público - tal como a Internet - 
+		para se acessar uma outra rede privada).
+    O acesso remoto
+    facilita aos membros da equipe trabalharem de praticamente quaisquer localidades. Esta flexibilidade
+    faz com que a pessoa possa participar, por exemplo, de áudio conferências e ter acesso ao e-mail mesmo estando 
+    em casa (útil para se lidar com diferença de fusos horários para reuniões).
+
+\item{Repositório de arquivos:} consiste em um espaço de uso comum para guarda de documentos compartilhados.
+	O acesso ao repositório pode ser controlado de tal forma que é possível estabelecer-se níveis de acesso
+	que vão de ``nenhum'', ``apenas leitura'' e ``leitura e escrita''.
+	Além disso, dependendo da ferramenta utilizada, é possivel fazer
+	controle de versões e edição simultânea por vários usuários.
+
+
+\item{Vídeo conferência:} as formas mais comuns de vídeo conferência são por câmera acoplada ao micro-computador (as
+	\textit{Webcams}) e equipamentos dedicados. As \textit{Webcams} estão popularizadas devido ao seu baixo custo e tem
+	uso individual. Equipamentos dedicados de vídeo conferência são dispositivos com custo mais elevado que possuem uma 
+	câmera com um sistema ótico capaz de captar a imagem de um ambiente maior (uma sala toda, ou parte dela) e 
+	utiliza uma televisão ou monitor dedicado para a apresentação da imagem. Permite o uso por um grupo de pessoas.
+
+\item{Blogs, wikis, fórums de discussão:} estas são ferramentas muito comuns na Internet e enquadram-se na categoria 
+    geral de ferramentas de colaboração (e no contexto desse artigo têm uso diferente do Repositório de Arquivos
+    descrito anteriormente). Todas elas disponibilizam algum tipo de interface de acesso (a maioria o faz através de uma página Web)
+	e a pessoa que acessar a ferramenta deixa sua contribuição/opinião por escrito. A inserção de imagens e vídeo também
+	pode ser permitida. 
+
+\end{description}
+
+
+\section{\fontsize{12}{12}\textbf{Ferramentas de Gestão de Desempenho}}
+
+Por ferramenta de gestão de desempenho entende-se um processo formal fornecido pela empresa que envolva 
+remuneração por metas atingidas (\textit{pay for performance}). 
+O cumprimento das metas implicará um prêmio, assim como 
+o não cumprimento implicará  alguma limitação neste mesmo benefício. 
+
+Esse tipo de ferramenta é 
+de grande valia para que o gestor de equipes remotas possa lidar com a dificuldade no acompanhamento do trabalho
+executado pelos membros da equipe. A remuneração por atingimento de metas coloca o interesse pelo resultado também
+nas mãos de cada membro da equipe, aliviando um pouco mais o gestor que pode reforçar o papel de autonomia que cada membro
+da equipe pode exercer na tomada das decisões relativas ao dia a dia de cada um deles. 
+
+Um exemplo de como utilizar um sistema de remuneração por atingimento de metas seria (uma extensa análise de
+diversos tipos de remuneração por atingimento de metas é feita por \cite{sirota}):
+
+\begin{description}
+
+\item{Contrato de Desempenho:} é um documento formal escrito e acordado entre o gestor e o membro da equipe no início do ano.
+                                                      O Contrato de Desempenho possui objetivos que devem ser cumpridos
+                                                      pelo membro da equipe ao longo do ano. É recomendável que estes objetivos estejam escritos de
+                                                      forma clara, que possuam data de entrega, que sejam factíveis e que esteja acordado entre 
+                                                      as partes.
+
+\item{Revisão Semestral:} ocorre no meio do ano e é utilizada para que o gestor e o membro da equipe revisem
+                                         os objetivos para verificar quais foram atingidos e façam ajustes para o segundo período do ano.
+                                         Algumas empresas fazem uma antecipação da remuneração por atingimento de metas
+                                         a partir da avaliação na revisão semestral. 
+
+\item{Avaliação de Final de Ano:} é a última etapa do ciclo de avaliação 
+							       e é utilizada para que o gestor e o membro da equipe revisem o
+                                                    atingimento dos objetivos acordados. O pagamento da remuneração por atingimento
+                                                    de metas completa-se com esta avaliação e o membro da equipe recebe o que ainda lhe
+                                                    cabe da remuneração por atingimento de metas.
+
+\end{description}
+
+O ciclo do contrato de desempenho se repete a cada ano.
+
+
+\section{\fontsize{12}{12}\textbf{Juntando as Partes}}
+
+Trabalhar na coordenação do grupo e na gestão individual das pessoas não depende apenas das ferramentas, mas sim em como são utilizadas. Os passos abaixo descrevem as práticas de desenvolvimento de equipes utilizadas com a aplicação das correspondentes ferramentas (\cite{winter} possui outras técnicas que também poderiam ser usadas):
+
+\begin{enumerate}
+
+\item Crie uma \underline{lista de distribuição} para ser utilizada em todas as comunicações com a equipe. A praticidade da lista de 
+	distribuição está em não ser necessário fornecer os endereços de e-mail de cada pessoa do grupo cada vez 
+	que se queira comunicar com o grupo todo, correndo o risco de se
+	esquecer de alguém ou de deixar alguém de fora da comunicação porque a pessoa é
+	nova no grupo e nem todos ainda se lembram de incluí-la. Esta ``exclusão por desconhecimento''
+	é muito comum quando o grupo recebe e-mails de pessoas de outros departamentos
+	que não necessariamente estão comunicadas do novo membro do grupo. Divulgue a lista
+	e mantenha-a sempre atualizada. 
+
+\item Avise o grupo por e-mail (use a \underline{lista de distribuição})
+	que você vai fazer uma reunião por \underline{áudio conferência}. Envie um convite de \underline{calendário compartilhado} informando
+	 a data, horário de início e término e os dados da áudio conferência (número de telefone, senha e dados para
+	acesso à 	\underline{apresentação via Internet}). Faça desta conferência a ``reunião
+    semanal da equipe'' (usada para o gestor passar ao grupo os comunicados que dizem respeito
+    a todos e onde o grupo pode discutir assuntos que sejam de interesse comum).
+
+\item Na reunião, faça uma rodada rápida entre os participantes 
+		coletando os assuntos que cada um gostaria de discutir no dia. Os itens devem ser
+		de interesse comum; itens particulares de cada membro da equipe serão discutidos
+		em reuniões individuais que você irá marcar. Anote os itens num editor
+		de texto que está sendo compartilhado com todos por uma \underline{apresentação via Internet}.
+		Desta forma, cada participante pode acompanhar os assuntos em pauta e sentir-se
+		mais confortável de que os assuntos de seu interesse estão na pauta de discussão (e em que momento serão discutidos).
+		Ao final dessa rodada (que não deve levar mais que 5 minutos), inicie dando os seus recados,
+		depois vá na sequência dando a palavra a cada um e discutindo os itens da pauta. 
+		Termine a reunião no horário combinado.
+
+\item Marque reuniões um a um: para cada membro da equipe, marque uma reunião quinzenal individual
+		(\underline{áudio conferência} ou telefonema comum).
+		Nessa reunião discuta assuntos relativos ao membro da equipe em questão. Como está o
+		andamento dos projetos, se há alguma questão (\textit{issue}) de projeto na qual você deva intervir, questões
+		de Recursos Humanos do membro da equipe, etc. Essas
+		reuniões um a um são a oportunidade do gestor e o membro da equipe conhecerem-se melhor,
+		e onde o gestor poderá acompanhar um pouco mais em detalhes se cada
+		projeto sob responsabilidade daquele membro da equipe está indo bem e se os 
+		resultados serão entregues nos prazos. 
+		Utilize também as reuniões um a um para estabelecer os objetivos do \underline{Contrato de Desempenho}, 
+		fazer a \underline{Revisão Semestral} e a \underline{Avaliação de Final de Ano}.
+
+
+\item Crie um \underline{repositório de arquivos} para armazenas os documentos de uso comum da equipe. Isso evita o armazenamento 
+	individual destes arquivos e o inevitável conflito de versões que decorre disso. 
+	Comece a guardar nesse repositório todos os documentos importantes
+	da equipe. Crie e divulgue o hábito de, ao invés de enviar às pessoas o documento como anexo do e-mail, armazená-lo
+	no repositório indicando onde o documento se encontra para que todos possam acessá-lo. O repositório
+	passará aos poucos e naturalmente a ser a referência para toda a equipe de onde encontrar
+	o que precisam. O repositório ajuda a criar uma identidade de equipe, por ser um local de uso comum do grupo.
+
+
+\item Caso não conheça o membro da equipe pessoalmente, obtenha aprovação e
+	marque uma viagem para que vocês possam se encontrar. O grau de empatia conseguido nesse encontro facilitará muito o relacionamento
+	remoto posterior. Otimize o objetivo da viagem
+	com visita a fornecedores, clientes, etc. A viagem será mais produtiva depois que você já
+	tiver tido algumas reuniões um a um e já conhecer um pouco mais sobre o membro da equipe.
+
+\end{enumerate}
+
+
+\section{\fontsize{12}{12}\textbf{Considerações Finais}}
+
+Além das ferramentas descritas anteriormente existem outras que, apesar do apelo tecnológico, mostraram-se ainda 
+pouco eficazes por sua baixa aceitação no uso diário da gestão de equipes remotas. 
+O propósito não é desprestigiar essas ferramentas, mas apenas relatar que seu uso é, na prática,
+menos adotado que o das demais.
+
+\begin{description}
+
+\item{Vídeo conferência:} apesar de muito comentada como substituto de viagens, a vídeo conferência não se mostrou uma
+    ferramenta prática na interação dos membros da equipe. Alguns fatores que reduziram a disposição
+    para o uso desta ferramenta foram:
+    \begin{itemize}
+
+    \item Nem todos os equipamentos micro-computadores (PCs) fornecidos pela empresa possuem \textit{Webcam}. Desta forma, alguns membros da equipe ficariam de fora da interação por vídeo, tornando
+       a experiência menos interessante.
+
+    \item As pessoas não se sentem confortáveis em ter sua imagem em vídeo compartilhada, especialmente
+       porque o vídeo tem um efeito policiador sobre a pessoa. O interlocutor pode ver a todo momento 
+       se a pessoa está ``prestando atenção'', o que nem sempre ocorre durante áudio conferências entre muitos participantes.
+
+    \item São poucos os softwares utilizados na empresa que permitem a transmissão de vídeo. Quando muito, as ferramentas de IM
+       oferecem esta funcionalidade, mas a mesma fica limitada a dois participantes apenas. Outras ferramentas também têm 
+	limites de participantes simultâneos, e os dispositivos dedicados a vídeo conferência, se disponíveis, ficam alocados em salas 	
+	específicas, dificultando o acesso casual sem pré-agendamento.
+    \end{itemize}
+
+\item{Blogs, wikis, fóruns de discussão:} essas ferramentas pressupõem que a pessoa vai pro-ativamente acessá-las e contribuir 
+	com sua opinião, por escrito. Isso exige muita disciplina (para acessar regularmente a ferramenta) e, na prática, o e-mail acaba
+	sendo o método mais utilizado para discussões.
+
+\end{description}
+
+
+Uma ressalva a ser feita a respeito de ferramentas de tecnologia é que sua utilização
+depende em parte da cultura da empresa. Quem vem de muitas reuniões 
+presenciais pode relutar em adotar reuniões por áudio conferência em grupo.  Trabalhar de casa por acesso remoto pode parecer ``um absurdo'' para muitos e até
+mesmo criar problemas com o Departamento de Recursos Humanos ou Sindicatos. 
+Mesmo assim, equipes remotas não podem prescindir do uso de ferramentas de tecnologia às custas de 
+perda significativa de produtividade.
+
+
+\section{\fontsize{12}{12}\textbf{Conclusões}}
+
+A experiência na gestão de uma equipe remota (ou equipe virtual) mostrou que as ferramentas de tecnologia de
+e-mail, lista de distribuição, áudio conferência, calendário compartilhado, \textit{chat}, apresentações via Internet, acesso remoto
+a sistemas, e repositório de arquivos, mostraram-se de uso prático e de fácil aceitação pelo grupo.
+Por outro lado, vídeo conferência, blogs, wikis e fóruns de discussão mostraram-se de baixa aceitação e menos
+eficazes para uso seja por questões de cultura corporativa ou por custo/disponibilidade.
+As ferramentas de Gestão de Desempenho são um complemento fundamental na administração da equipe porque
+permitem ao gestor dividir com os membros do grupo o interesse pelos resultados.
+
+
+\section{\fontsize{12}{12}\textbf{Áreas para Investigação}}
+
+É provável que uma equipe remota também apresente diferenças culturais entre as pessoas, pois o fato dos membros
+da equipe estarem geograficamente dispersos aumenta a chance de pertencerem a culturas diferentes.
+Essas diferenças podem se manifestar até mesmo quando a dispersão geográfica ocorre dentro do mesmo país (em
+estados diferentes) ou dentro do mesmo estado (por exemplo, capital versus interior).
+Equipes locais também podem apresentar diferenças culturais dependendo da origem de cada membro da equipe.
+Diferenças culturais adicionam um grau a mais de dificuldade na gestão de equipes remotas, no entanto
+não foi objetivo deste trabalho abordar este tipo de questão.
+
+%\theendnotes
+
+\begin{thebibliography}{1}
+
+  \bibitem[BRAKE 2010]{brake} BRAKE, Terence. {\em Onde está minha equipe?} 2010 : Elsevier Editora Ltda.
+
+  \bibitem[DAVEY-WINTER 2010]{winter} DAVEY-WINTER, Karen. {\em Team Building and Development in a Matrix Environment} 2010 : PMI Virtual Library.
+
+  \bibitem[PMBOK\textregistered 2008]{pmbok} PROJECT MANAGEMENT INSTITUTE (PMI). {\em Um Guia do Conjunto de Conhecimentos em Gerenciamento
+   de Projetos (Guia PMBOK\textregistered) - Quarta Edição} 2008.
+
+  \bibitem[SEN 2010]{sen} SEN, Kunal. {\em How to Make Virtual Teams Work Successfully} 2010 : PMI Virtual Library.
+
+  \bibitem[SIROTA 2010]{sirota} SIROTA, David ; MISCHKIND, Louis A. ; MELTZER, Michael Irwin. {\em The Enthusiastic Employee: How 
+  Companies Profit by Giving Workers What They Want} 2005 : Pearson Prentice Hall
+
+  \end{thebibliography}
+
+
+\end{document}
