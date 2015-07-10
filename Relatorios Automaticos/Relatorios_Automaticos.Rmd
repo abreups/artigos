@@ -1,0 +1,38 @@
+
+Fundamentação Teórica
+---------------------
+
+
+a separação entre conteúdo e forma (base do LaTeX).
+
+a dificuldade em se gerar um belo relatório
+
+a questão da apresentação da informação (gráficos versus tabelas, mapas)
+
+PMBOK Cap 10 - Project Communications Management
+
+
+
+
+Metodologia
+---------------------
+
+ggplot2 - capacidade de gerar gráficos
+
+
+
+Análise de Resultados
+---------------------
+
+
+
+Conclusão
+---------------------
+
+
+
+Referências
+---------------------
+
+
+
