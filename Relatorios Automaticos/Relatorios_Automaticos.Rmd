@@ -36,7 +36,7 @@ on unnecessary information or innapropriate technology".
 
 .1 Communications management plan: 
 
-- estamos falando de written reports.
+- estamos falando de written reports, ou seja, communicação formal.
 - a description of the information to be distributed, including format,
 content, level of detail, and conventions/definitions to be used.
 
@@ -45,6 +45,67 @@ highly detailed or broadly frmaed, based on the needs of the project.
 Nesse aspecto, a definição do relatório pode ser um dos poucos outputs
 que mais frequentemente de faz, na prática, como parte de um 
 communications plan.
+
+10.2 Information Distribution: "involves making needed information
+available to project stakeholders in a timely manner.
+
+10.2.2 Tools and Techniques for Information Distribution
+
+.1 Communications skills: formal written report
+
+.2 Information retrieval systems: informação coletada por e-mail
+e armazenada em arquivos do tipo csv ou txt.
+
+.3 Information distribution methods: relatório em formato de 
+apresentação de slides, formato pdf, distribuído por e-mail ou
+disponível em página de intranet.
+
+10.2.3 Outputs from Information Distribution
+
+.2 Project reports: o relatório propriamente dito.
+
+10.3 Performance Reporting: involves collecting and disseminating
+performance information to provide stakeholders with informantion
+about how resources are being used to achieve project objectives.
+This process includes:
+
+- Status reporting - where the project now stands (e.g. schedule 
+and budget)
+
+- Progress reporting - what the project team has accomplished
+(e.g. percent complete to schedule, what is completed versus 
+what is in progress).
+
+- Forecasting - predicting future project status and progress.
+
+Reports may be prepared comprehensively or on an exception basis.
+
+Divisão comum dos processos:
+
+Inputs --> Tools and Technicques --> Outputs
+
+Inputs: registrados em arquivos texto no formato csv ou txt
+
+Tools and Techniques: R e LaTeX
+
+Outputs: documento no formato apresentação de slides, arquivo pdf.
+
+Importância da representação gráfica para diversas métricas de Performance,
+tais como: Earned Value, Trends, Variance.
+Tabelas também são importantes e LaTeX possui muita flexibilidade na
+geração de tabelas.
+
+Relatórios também estão presentes como output de Performance Reporting.
+
+10.4 Administrative Closure: utiliza project reports como Tools and
+Techniques.
+
+TO-DO: qual a popularidade de relatórios em cada etapa do projeto?
+TO-DO: qual a dificuldade em se fazer relatórios? Algum artigo
+mensurando isso?
+
+
+
 
 
 
