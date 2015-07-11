@@ -1,5 +1,5 @@
 
-Fundamentação Teórica
+## Fundamentação Teórica
 ---------------------
 
 Measuring Project Health [4]
@@ -13,6 +13,8 @@ a separação entre conteúdo e forma (base do LaTeX). [10]
 a dificuldade em se gerar um belo relatório
 
 a questão da apresentação da informação (gráficos versus tabelas, mapas)
+
+### PMBOK
 
 PMBOK Cap 10 - Project Communications Management [9]
 Área de Conhecimento - Project Communications Management. Relatório é output.
@@ -105,6 +107,12 @@ TO-DO: qual a dificuldade em se fazer relatórios? Algum artigo
 mensurando isso?
 
 
+### 12.14 Understanding Project Management Software
+(Kerzner)
+
+
+
+
 
 
 
@@ -118,7 +126,7 @@ project financial planning and reporting (Excel!) [3]
 
 
 
-Metodologia
+## Metodologia
 ---------------------
 
 
@@ -127,17 +135,17 @@ ggplot2 - capacidade de gerar gráficos
 
 
 
-Análise de Resultados
+## Análise de Resultados
 ---------------------
 
 
 
-Conclusão
+## Conclusão
 ---------------------
 
 
 
-Referências
+## Referências
 ---------------------
 
 [1] http://blog.timedoctor.com/2011/02/02/43-project-management-software-alternatives
