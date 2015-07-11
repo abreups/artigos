@@ -15,6 +15,38 @@ a dificuldade em se gerar um belo relatório
 a questão da apresentação da informação (gráficos versus tabelas, mapas)
 
 PMBOK Cap 10 - Project Communications Management [9]
+Área de Conhecimento - Project Communications Management. Relatório é output.
+Há todo o processo de coleta da informação para a geração do relatório.
+
+Communication Planning - determinar as necessidades de informação
+dos stakeholders, quando e como eles a receberão não é escopo desse
+trabalho, embora seja um fator importante para o sucesso do projeto.
+
+10.1.1 Inputs to communications Planning: 
+
+.2 Communications technology: relatório escrito em formato de apresentação
+de slides, distribuído por e-mail ou disponível em página de intranet.
+
+10.1.2 Tools and Techniques for Communications Planning
+
+.1 Stakeholder analysis: "care should be taken to avoid wasting resources
+on unnecessary information or innapropriate technology".
+
+10.1.3 Outputs from Communications Plannings
+
+.1 Communications management plan: 
+
+- estamos falando de written reports.
+- a description of the information to be distributed, including format,
+content, level of detail, and conventions/definitions to be used.
+
+The communications management plan may be formal or informal,
+highly detailed or broadly frmaed, based on the needs of the project.
+Nesse aspecto, a definição do relatório pode ser um dos poucos outputs
+que mais frequentemente de faz, na prática, como parte de um 
+communications plan.
+
+
 
 Existem dezenas de softwares para gerenciamento de projetos [1] [2] 
 
@@ -27,6 +59,8 @@ project financial planning and reporting (Excel!) [3]
 
 Metodologia
 ---------------------
+
+
 
 ggplot2 - capacidade de gerar gráficos
 
