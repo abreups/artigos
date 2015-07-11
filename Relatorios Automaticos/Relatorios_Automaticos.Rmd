@@ -2,6 +2,21 @@
 ## Fundamentação Teórica
 ---------------------
 
+Em organizações não orientadas a projetos, projetos ocorrem mesmo
+sem todo o arsenal de organização de gerenciamento de projetos
+por trás. Nada de controle de recursos ou rescheduling tools para
+agendar atividades e acompanhar o cumprimento das mesmas.
+
+Mesmo assim, relatórios são requisitados pela liderança e a pessoa
+(ou organização) responsável por produzi-los se vê sem ferramentas 
+profissionais de gerenciamento de projetos. O que lhes resta é 
+recorrer a planilhas para acompanhar e reportar o andamento
+dos projetos. Gráficos e tabelas são gerados e manualmente
+transferidos para outros aplicativos de apresentação (tais como Microsoft
+PowerPoint, Apple Keynot, ou OpenOffice ...).
+
+
+
 Measuring Project Health [4]
 
 PMO Reporting (a importância) [5]
@@ -110,8 +125,51 @@ mensurando isso?
 ### 12.14 Understanding Project Management Software
 (Kerzner)
 
+Eficiência em gerenciamento de projetos não depende apenas de um bom
+planejamento, mas necessita que informações relevantes sejam coletadas,
+analizadas e revisadas a tempo.
+Há uma variedade de ferramentas para gerenciamento de projetos disponíveis
+hoje em dia que se propõem a ajudar o gerente de projetos a acompanhar e
+controlar o projeto.
+oftwares que, em 1980, exigiam mainframes para serem executados passaram
+a estar disponíveis nos PCs e, a partir de 2010, nas plataformas "em 
+nuvem".
+
+A visualização de informações sobre um projeto tipicamente se dá na forma
+de relatórios.
 
 
+Todos os pacotes de software exigem algum tipo de treinamento para que
+possam ser utilizados. E quanto mais poderoso for o pacote de software,
+oferecendo uma incrível variedade de relatórios, muito provavelmente
+mas tempo de treinamento será necessário para que o gerente de projeto
+ou a equipe do Escritório de Projetos possa aprender a tirar proveito
+destas funcionalidades. Também, funcionalidades avançadas só estão
+disponíveis através features pagas, não estando disponíveis nas
+versões grátis (?).
+
+Do outro lado do cenário está a gestão de projetos feita com 
+planilhas eletrônicas. A desvantagem é que a organização das 
+planilhas acaba sendo errática, onde cada gerente de projetos 
+altera a planilha conforme lhe convém e dificulta o reaproveitamento
+das mesmas para projetos futuros, ou como padronização pelo
+Escritório de Projetos.
+
+Outra desvantagem da planilha é que ela mistura o armazenamento
+dos dados com a visualização dos dados (através de gráficos e
+tabelas, por exemplo).
+TO-DO: fundamentar.
+
+Outra desvantagem das planilhas é que as fórmulas podem ficar em
+locais não óbvios e rastrear as modificações bem como encontrar bugs
+torna-se uma tarefa tediosa e frustrante.
+
+O que propomos é um modelo misto que utiliza algumas ferramentas 
+básicas open source (e grátis) para criação de templates que possam
+ser reaproveitados. Também o armazenamento de dados é feito da forma
+mais aberta e reaproveitável possível, utilizando-se em princípio
+arquivos texto puro (.txt) ou organizados em formato csv (campos
+separados por vírgula, ou comma separated values).
 
 
 
@@ -179,4 +237,17 @@ Editora Van Nostrand Reinhold, Sixth Edition, 1998.
 
 [15] http://www.computer.org/csdl/mags/cs/2009/01/mcs2009010005.pdf
 
-[16] 
+[16] WBS em LaTeX: http://texdoc.net/texmf-dist/doc/latex/forest/forest.pdf
+
+[17] WBS em LaTeX: http://tex.stackexchange.com/questions/206971/diagram-using-forest-package
+
+[18] Gantt chart em LaTeX: http://ctan.mirrors.hoobly.com/graphics/pgf/contrib/pgfgantt/pgfgantt.pdf
+
+[19] knitr: https://github.com/yihui/knitr
+
+[20] Sweave: http://www.statistik.lmu.de/~leisch/Sweave/
+
+[21] taskjuggler: http://www.taskjuggler.org/index.html (formato dos
+arquivos pode ser útil?)
+
+[22] 
